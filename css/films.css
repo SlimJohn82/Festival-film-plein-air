@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+/*********************************************** !!! RESPONSIVE !!! *********************************/
+
+@media screen and (max-width: 1000px) {
+}
+
+@media screen and (max-width: 780px) {
+}

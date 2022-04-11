@@ -1,0 +1,86 @@
+#font-terminator {
+    font-family: "terminator";
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: "terminator";
+    src: url("../Font/Terminator/terminator\ real\ nfi.ttf");
+}
+#font-venom {
+    font-family: "venom";
+    font-size: 50px;
+}
+@font-face {
+    font-family: "venom";
+    src: url("../Font/Venom/VENOM.ttf");
+}
+
+#font-spider-man {
+    font-family: "spider-man";
+    font-size: 34px;
+}
+
+@font-face {
+    font-family: "Spider-Man";
+    src: url("../Font/Spider-man/HOMOARAK.TTF");
+}
+
+#font-impossible {
+    font-family: "Mission-impossible";
+    font-size: 34px;
+}
+
+@font-face {
+    font-family: "Mission-impossible";
+    src: url("../Font/Mission-impossible/IMPOS10_.ttf");
+}
+
+#font-back-to {
+    font-family: "Back-to-the-futur";
+    font-size: 32px;
+}
+
+@font-face {
+    font-family: "Back-to-the-futur";
+    src: url("../Font/Back-to-the-futur/BTTF.ttf");
+}
+
+#font-mad-max {
+    font-family: "Mad-max";
+    font-size: 44px;
+}
+@font-face {
+    font-family: "Mad-max";
+    src: url("../Font/Mad-max/Mechanismo-Regular.ttf");
+}
+
+#font-demolition-man {
+    font-family: "Demolition-man";
+    font-size: 34px;
+}
+
+@font-face {
+    font-family: "Demolition-man";
+    src: url("../Font/Demolition-man/cyberdynecond.ttf");
+}
+
+#font-Jumanji {
+    font-family: "Jumanji";
+    font-size: 34px;
+}
+
+@font-face {
+    font-family: "Jumanji";
+    src: url("../Font/Jumanji/Blade Gunner 2049 St.ttf");
+}
+
+#font-True-lies {
+    font-family: "True-lies";
+    font-size: 34px;
+}
+
+@font-face {
+    font-family: "True-lies";
+    src: url("../Font/True-lies/venus rising rg.ttf");
+}

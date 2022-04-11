@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Titillium+Web:ital,wght@1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');;
+
+.body {
+    overflow-x: hidden;
+    margin-top: 60px;
+}
+
+.body {
+    width: 500px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: green;
+    text-align: left;
+    background-color: ghostwhite;
+}
+
+.bg-light {
+    background-color: green !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.carousel-caption {
+    font-size: 25px;
+    font-style: italic;
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-family: "Droid Serif", "Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-family: "Bangers", cursive;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(238, 10, 10);
+    font-size: 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: rgb(31, 158, 5);
+    font-family: "Handlee", sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: "Bangers", cursive;
+}
+
+.introduction {
+    border-left: 5px solid rgb(43, 153, 21);
+    padding-left: 20px;
+    line-height: 3rem;
+    margin-bottom: 30px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.text-muted {
+    color: rgb(0, 0, 0) !important;
+    font-family: "Handlee", sans-serif;
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+    font-family: "Bangers", cursive;
+}
+
+.card-deck{
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+    
+.card .card-img-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    margin: auto;
+}
+
+.option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: 0.25;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+    color: #f8f9fa;
+    background-color: green;
+    border-color: #f8f9fa;
+}
+
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+/*************************************************** Nav Bar ***********************************/
+.contact .form-group textarea.form-control {
+    height: 248px;
+}
+
+#films .nav-pills a {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.films .nav-pills:hover {
+    background-color: #0c880c;
+    color: honeydew;
+}
+.nav-item {
+    padding-left: 100px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid;
+}
+
+.form-control-lg {
+    height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+.sections {
+    font-size: 15px;
+    font-family: Roboto;
+    background: #34d105;
+    margin-top: 10px;
+    border: 2px solid #34d105;
+    border-radius: 0px 0px 30px 30px;
+    overflow: hidden;
+}
+
+.sections .texte-presentation {
+    color: white;
+    text-align: justify;
+    padding-top: 30px;
+}
+
+.sections .element {
+    height: 265px;
+    background: #f5f5f5;
+    background-size: cover;
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+    -webkit-clip-path: ellipse(80% 90% at 15% 50%);
+    clip-path: ellipse(80% 90% at 15% 50%);
+    -webkit-shape-outside: ellipse(90% 70% at 0% 50%);
+    shape-outside: ellipse(90% 70% at 0% 50%);
+    -webkit-shape-margin: 1em;
+    shape-margin: 0.5rem;
+}
+
+.sections h3 {
+    padding: 1em 0;
+}
+
+main .sections:nth-child(2n + 2) {
+    background: #488751;
+    border: 2px solid #488751;
+    border-radius: 30px 0px 30px 0px;
+}
+
+main .sections:nth-child(2n + 2) .element {
+    -webkit-clip-path: ellipse(80% 90% at 80% 50%);
+    clip-path: ellipse(80% 90% at 80% 50%);
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #488751;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-film {
+    border: 1px solid #41b60b;
+    margin-right: 10px;
+}
+.modal-body-film,
+.modal-title-film {
+    color: black;
+}
+
+.intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 100px;
+    height: 100px;
+}
+.film-90 {
+    width: 90%;
+}
+.festival {
+    height: 100%;
+    width: 100%;
+}
+.card-deck {
+    padding-top: 15px;
+}
+
+.footer-content {
+    display: flex;
+    align-self: flex-end;
+}
+
+/*********************************************** !!! RESPONSIVE !!! For Smartphone Mobile  *********************************/
+@media only screen and (max-width: 950px) {
+    /* tablette */
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+    /* smartphones, iPhone 12 pro */
+    . {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1230px;
+        padding: 40px 15px 100px;
+        position: relative;
+    }
