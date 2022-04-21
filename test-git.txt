@@ -1,0 +1,14 @@
+ceci est un test pour mieux apprendre git
+
+github est un hebergeur/serveur (gratuit)
+
+git est un outil
+
+1 - créer un projet
+2 - git clone du projet
+3 - entrer dans le dossier du projet avec la commande "cd [NOM_DU_PROJET]"
+
+ pour ajouter un fichier: 
+4 - git add .
+5 - git commit -m "[MESSAGE]"
+6 - git push -u origin main
